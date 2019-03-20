@@ -12,9 +12,44 @@
 		6C1E898A22359F8C00B17AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E898822359F8C00B17AEC /* Main.storyboard */; };
 		6C1E898C22359F9300B17AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E898B22359F9300B17AEC /* Assets.xcassets */; };
 		6C1E898F22359F9300B17AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E898D22359F9300B17AEC /* LaunchScreen.storyboard */; };
+		6C1E899D2235A69F00B17AEC /* Comfortaa-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89972235A69F00B17AEC /* Comfortaa-Light.otf */; };
+		6C1E899E2235A69F00B17AEC /* FONTLOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89982235A69F00B17AEC /* FONTLOG.txt */; };
+		6C1E899F2235A69F00B17AEC /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89992235A69F00B17AEC /* OFL.txt */; };
+		6C1E89A02235A69F00B17AEC /* Comfortaa-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E899A2235A69F00B17AEC /* Comfortaa-Regular.otf */; };
+		6C1E89A12235A69F00B17AEC /* donate.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E899B2235A69F00B17AEC /* donate.html */; };
+		6C1E89A22235A69F00B17AEC /* Comfortaa-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E899C2235A69F00B17AEC /* Comfortaa-Bold.otf */; };
+		6C1E89A52235BE0C00B17AEC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E89A42235BE0C00B17AEC /* GradientView.swift */; };
+		6C1E89C12235C98E00B17AEC /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89AE2235C98E00B17AEC /* Gotham-XLight.otf */; };
+		6C1E89C22235C98E00B17AEC /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89AF2235C98E00B17AEC /* Gotham-Thin.otf */; };
+		6C1E89C32235C98E00B17AEC /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89B02235C98E00B17AEC /* Gotham-Black.otf */; };
+		6C1E89C42235C98E00B17AEC /* Gotham-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89B12235C98E00B17AEC /* Gotham-XLightItalic.otf */; };
+		6C1E89C52235C98E00B17AEC /* GothamLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89B22235C98E00B17AEC /* GothamLight.ttf */; };
+		6C1E89C62235C98E00B17AEC /* freefontsfamily.com.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89B32235C98E00B17AEC /* freefontsfamily.com.txt */; };
+		6C1E89C72235C98E00B17AEC /* Gotham-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89B42235C98E00B17AEC /* Gotham-UltraItalic.otf */; };
+		6C1E89C82235C98E00B17AEC /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89B52235C98E00B17AEC /* Gotham-Bold.otf */; };
+		6C1E89C92235C98E00B17AEC /* GothamMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89B62235C98E00B17AEC /* GothamMediumItalic.ttf */; };
+		6C1E89CA2235C98E00B17AEC /* GothamBookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89B72235C98E00B17AEC /* GothamBookItalic.ttf */; };
+		6C1E89CB2235C98E00B17AEC /* Gotham-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89B82235C98E00B17AEC /* Gotham-ThinItalic.otf */; };
+		6C1E89CC2235C98E00B17AEC /* GothamMedium_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89B92235C98E00B17AEC /* GothamMedium_1.ttf */; };
+		6C1E89CD2235C98E00B17AEC /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89BA2235C98E00B17AEC /* Gotham-Light.otf */; };
+		6C1E89CE2235C98E00B17AEC /* GothamBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89BB2235C98E00B17AEC /* GothamBold.ttf */; };
+		6C1E89CF2235C98E00B17AEC /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89BC2235C98E00B17AEC /* Gotham-BookItalic.otf */; };
+		6C1E89D02235C98E00B17AEC /* GothamBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89BD2235C98E00B17AEC /* GothamBoldItalic.ttf */; };
+		6C1E89D12235C98E00B17AEC /* GothamBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89BE2235C98E00B17AEC /* GothamBook.ttf */; };
+		6C1E89D22235C98E00B17AEC /* GothamLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89BF2235C98E00B17AEC /* GothamLightItalic.ttf */; };
+		6C1E89D32235C98E00B17AEC /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E89C02235C98E00B17AEC /* GothamMedium.ttf */; };
+		6C6042AF22404D910089FED4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6042AE22404D910089FED4 /* SignUpViewController.swift */; };
+		6C6042B122404DB60089FED4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6042B022404DB60089FED4 /* LoginViewController.swift */; };
+		6C6042B322404EAE0089FED4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6042B222404EAE0089FED4 /* DataViewController.swift */; };
+		6C6042B5224057DD0089FED4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C6042B4224057DD0089FED4 /* GoogleService-Info.plist */; };
+		6CC686682235D7C900916370 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC686672235D7C900916370 /* Button.swift */; };
+		6CF5BD5622385CAB00735F6F /* DropDownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF5BD5522385CAB00735F6F /* DropDownList.swift */; };
+		BFB2702A4240122574D77E70 /* Pods_Somnus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DF891E706CB35EFA1F85A4 /* Pods_Somnus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5ED83586E807E5232A087BE1 /* Pods-Somnus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somnus.release.xcconfig"; path = "Target Support Files/Pods-Somnus/Pods-Somnus.release.xcconfig"; sourceTree = "<group>"; };
+		68FA6C9EEF0DED4B2216CB8A /* Pods-Somnus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somnus.debug.xcconfig"; path = "Target Support Files/Pods-Somnus/Pods-Somnus.debug.xcconfig"; sourceTree = "<group>"; };
 		6C1E898122359F8C00B17AEC /* Somnus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Somnus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1E898422359F8C00B17AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C1E898622359F8C00B17AEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +57,39 @@
 		6C1E898B22359F9300B17AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C1E898E22359F9300B17AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C1E899022359F9300B17AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1E89972235A69F00B17AEC /* Comfortaa-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.otf"; sourceTree = "<group>"; };
+		6C1E89982235A69F00B17AEC /* FONTLOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FONTLOG.txt; sourceTree = "<group>"; };
+		6C1E89992235A69F00B17AEC /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		6C1E899A2235A69F00B17AEC /* Comfortaa-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.otf"; sourceTree = "<group>"; };
+		6C1E899B2235A69F00B17AEC /* donate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = donate.html; sourceTree = "<group>"; };
+		6C1E899C2235A69F00B17AEC /* Comfortaa-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.otf"; sourceTree = "<group>"; };
+		6C1E89A42235BE0C00B17AEC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		6C1E89AE2235C98E00B17AEC /* Gotham-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight.otf"; sourceTree = "<group>"; };
+		6C1E89AF2235C98E00B17AEC /* Gotham-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.otf"; sourceTree = "<group>"; };
+		6C1E89B02235C98E00B17AEC /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
+		6C1E89B12235C98E00B17AEC /* Gotham-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLightItalic.otf"; sourceTree = "<group>"; };
+		6C1E89B22235C98E00B17AEC /* GothamLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLight.ttf; sourceTree = "<group>"; };
+		6C1E89B32235C98E00B17AEC /* freefontsfamily.com.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = freefontsfamily.com.txt; sourceTree = "<group>"; };
+		6C1E89B42235C98E00B17AEC /* Gotham-UltraItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-UltraItalic.otf"; sourceTree = "<group>"; };
+		6C1E89B52235C98E00B17AEC /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		6C1E89B62235C98E00B17AEC /* GothamMediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMediumItalic.ttf; sourceTree = "<group>"; };
+		6C1E89B72235C98E00B17AEC /* GothamBookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBookItalic.ttf; sourceTree = "<group>"; };
+		6C1E89B82235C98E00B17AEC /* Gotham-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-ThinItalic.otf"; sourceTree = "<group>"; };
+		6C1E89B92235C98E00B17AEC /* GothamMedium_1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium_1.ttf; sourceTree = "<group>"; };
+		6C1E89BA2235C98E00B17AEC /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		6C1E89BB2235C98E00B17AEC /* GothamBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBold.ttf; sourceTree = "<group>"; };
+		6C1E89BC2235C98E00B17AEC /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		6C1E89BD2235C98E00B17AEC /* GothamBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBoldItalic.ttf; sourceTree = "<group>"; };
+		6C1E89BE2235C98E00B17AEC /* GothamBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBook.ttf; sourceTree = "<group>"; };
+		6C1E89BF2235C98E00B17AEC /* GothamLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLightItalic.ttf; sourceTree = "<group>"; };
+		6C1E89C02235C98E00B17AEC /* GothamMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium.ttf; sourceTree = "<group>"; };
+		6C6042AE22404D910089FED4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6C6042B022404DB60089FED4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6C6042B222404EAE0089FED4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		6C6042B4224057DD0089FED4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6CC686672235D7C900916370 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		6CF5BD5522385CAB00735F6F /* DropDownList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownList.swift; sourceTree = "<group>"; };
+		D7DF891E706CB35EFA1F85A4 /* Pods_Somnus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Somnus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +97,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB2702A4240122574D77E70 /* Pods_Somnus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		097F65B61388CD29AD71DE3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68FA6C9EEF0DED4B2216CB8A /* Pods-Somnus.debug.xcconfig */,
+				5ED83586E807E5232A087BE1 /* Pods-Somnus.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A6B88B4C8588BDFDEA66C2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7DF891E706CB35EFA1F85A4 /* Pods_Somnus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C1E897822359F8C00B17AEC = {
 			isa = PBXGroup;
 			children = (
 				6C1E898322359F8C00B17AEC /* Somnus */,
 				6C1E898222359F8C00B17AEC /* Products */,
+				097F65B61388CD29AD71DE3E /* Pods */,
+				5A6B88B4C8588BDFDEA66C2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +145,68 @@
 			children = (
 				6C1E898422359F8C00B17AEC /* AppDelegate.swift */,
 				6C1E898622359F8C00B17AEC /* ViewController.swift */,
+				6C6042AE22404D910089FED4 /* SignUpViewController.swift */,
+				6C6042B022404DB60089FED4 /* LoginViewController.swift */,
+				6C6042B222404EAE0089FED4 /* DataViewController.swift */,
+				6CF5BD5522385CAB00735F6F /* DropDownList.swift */,
 				6C1E898822359F8C00B17AEC /* Main.storyboard */,
+				6CC686672235D7C900916370 /* Button.swift */,
 				6C1E898B22359F9300B17AEC /* Assets.xcassets */,
 				6C1E898D22359F9300B17AEC /* LaunchScreen.storyboard */,
+				6C1E89A42235BE0C00B17AEC /* GradientView.swift */,
 				6C1E899022359F9300B17AEC /* Info.plist */,
+				6C6042B4224057DD0089FED4 /* GoogleService-Info.plist */,
+				6C1E89A32235B5CC00B17AEC /* Resources */,
 			);
 			path = Somnus;
+			sourceTree = "<group>";
+		};
+		6C1E89962235A69F00B17AEC /* comfortaa */ = {
+			isa = PBXGroup;
+			children = (
+				6C1E89972235A69F00B17AEC /* Comfortaa-Light.otf */,
+				6C1E89982235A69F00B17AEC /* FONTLOG.txt */,
+				6C1E89992235A69F00B17AEC /* OFL.txt */,
+				6C1E899A2235A69F00B17AEC /* Comfortaa-Regular.otf */,
+				6C1E899B2235A69F00B17AEC /* donate.html */,
+				6C1E899C2235A69F00B17AEC /* Comfortaa-Bold.otf */,
+			);
+			path = comfortaa;
+			sourceTree = "<group>";
+		};
+		6C1E89A32235B5CC00B17AEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C1E89AD2235C98E00B17AEC /* Gotham-Font */,
+				6C1E89962235A69F00B17AEC /* comfortaa */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C1E89AD2235C98E00B17AEC /* Gotham-Font */ = {
+			isa = PBXGroup;
+			children = (
+				6C1E89AE2235C98E00B17AEC /* Gotham-XLight.otf */,
+				6C1E89AF2235C98E00B17AEC /* Gotham-Thin.otf */,
+				6C1E89B02235C98E00B17AEC /* Gotham-Black.otf */,
+				6C1E89B12235C98E00B17AEC /* Gotham-XLightItalic.otf */,
+				6C1E89B22235C98E00B17AEC /* GothamLight.ttf */,
+				6C1E89B32235C98E00B17AEC /* freefontsfamily.com.txt */,
+				6C1E89B42235C98E00B17AEC /* Gotham-UltraItalic.otf */,
+				6C1E89B52235C98E00B17AEC /* Gotham-Bold.otf */,
+				6C1E89B62235C98E00B17AEC /* GothamMediumItalic.ttf */,
+				6C1E89B72235C98E00B17AEC /* GothamBookItalic.ttf */,
+				6C1E89B82235C98E00B17AEC /* Gotham-ThinItalic.otf */,
+				6C1E89B92235C98E00B17AEC /* GothamMedium_1.ttf */,
+				6C1E89BA2235C98E00B17AEC /* Gotham-Light.otf */,
+				6C1E89BB2235C98E00B17AEC /* GothamBold.ttf */,
+				6C1E89BC2235C98E00B17AEC /* Gotham-BookItalic.otf */,
+				6C1E89BD2235C98E00B17AEC /* GothamBoldItalic.ttf */,
+				6C1E89BE2235C98E00B17AEC /* GothamBook.ttf */,
+				6C1E89BF2235C98E00B17AEC /* GothamLightItalic.ttf */,
+				6C1E89C02235C98E00B17AEC /* GothamMedium.ttf */,
+			);
+			path = "Gotham-Font";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C1E899322359F9300B17AEC /* Build configuration list for PBXNativeTarget "Somnus" */;
 			buildPhases = (
+				4D87955CD44940561AAA74AD /* [CP] Check Pods Manifest.lock */,
 				6C1E897D22359F8C00B17AEC /* Sources */,
 				6C1E897E22359F8C00B17AEC /* Frameworks */,
 				6C1E897F22359F8C00B17AEC /* Resources */,
+				31F9D9F96D1DDC090CB32624 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +269,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1E899F2235A69F00B17AEC /* OFL.txt in Resources */,
+				6C1E89CC2235C98E00B17AEC /* GothamMedium_1.ttf in Resources */,
+				6C1E89C32235C98E00B17AEC /* Gotham-Black.otf in Resources */,
+				6C1E89CA2235C98E00B17AEC /* GothamBookItalic.ttf in Resources */,
+				6C6042B5224057DD0089FED4 /* GoogleService-Info.plist in Resources */,
+				6C1E89C42235C98E00B17AEC /* Gotham-XLightItalic.otf in Resources */,
+				6C1E89A12235A69F00B17AEC /* donate.html in Resources */,
+				6C1E89CE2235C98E00B17AEC /* GothamBold.ttf in Resources */,
+				6C1E899D2235A69F00B17AEC /* Comfortaa-Light.otf in Resources */,
 				6C1E898F22359F9300B17AEC /* LaunchScreen.storyboard in Resources */,
+				6C1E89A02235A69F00B17AEC /* Comfortaa-Regular.otf in Resources */,
+				6C1E899E2235A69F00B17AEC /* FONTLOG.txt in Resources */,
+				6C1E89D02235C98E00B17AEC /* GothamBoldItalic.ttf in Resources */,
+				6C1E89C72235C98E00B17AEC /* Gotham-UltraItalic.otf in Resources */,
+				6C1E89D22235C98E00B17AEC /* GothamLightItalic.ttf in Resources */,
+				6C1E89D12235C98E00B17AEC /* GothamBook.ttf in Resources */,
+				6C1E89CB2235C98E00B17AEC /* Gotham-ThinItalic.otf in Resources */,
+				6C1E89C22235C98E00B17AEC /* Gotham-Thin.otf in Resources */,
+				6C1E89D32235C98E00B17AEC /* GothamMedium.ttf in Resources */,
 				6C1E898C22359F9300B17AEC /* Assets.xcassets in Resources */,
 				6C1E898A22359F8C00B17AEC /* Main.storyboard in Resources */,
+				6C1E89C52235C98E00B17AEC /* GothamLight.ttf in Resources */,
+				6C1E89C92235C98E00B17AEC /* GothamMediumItalic.ttf in Resources */,
+				6C1E89CF2235C98E00B17AEC /* Gotham-BookItalic.otf in Resources */,
+				6C1E89C62235C98E00B17AEC /* freefontsfamily.com.txt in Resources */,
+				6C1E89CD2235C98E00B17AEC /* Gotham-Light.otf in Resources */,
+				6C1E89A22235A69F00B17AEC /* Comfortaa-Bold.otf in Resources */,
+				6C1E89C82235C98E00B17AEC /* Gotham-Bold.otf in Resources */,
+				6C1E89C12235C98E00B17AEC /* Gotham-XLight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31F9D9F96D1DDC090CB32624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Somnus/Pods-Somnus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Somnus/Pods-Somnus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D87955CD44940561AAA74AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Somnus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C1E897D22359F8C00B17AEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6042B122404DB60089FED4 /* LoginViewController.swift in Sources */,
+				6C6042AF22404D910089FED4 /* SignUpViewController.swift in Sources */,
 				6C1E898722359F8C00B17AEC /* ViewController.swift in Sources */,
+				6C1E89A52235BE0C00B17AEC /* GradientView.swift in Sources */,
+				6C6042B322404EAE0089FED4 /* DataViewController.swift in Sources */,
 				6C1E898522359F8C00B17AEC /* AppDelegate.swift in Sources */,
+				6CC686682235D7C900916370 /* Button.swift in Sources */,
+				6CF5BD5622385CAB00735F6F /* DropDownList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +520,7 @@
 		};
 		6C1E899422359F9300B17AEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FA6C9EEF0DED4B2216CB8A /* Pods-Somnus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +538,7 @@
 		};
 		6C1E899522359F9300B17AEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED83586E807E5232A087BE1 /* Pods-Somnus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

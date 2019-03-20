@@ -1,0 +1,6 @@
+framework module Pods_Somnus {
+  umbrella header "Pods-Somnus-umbrella.h"
+
+  export *
+  module * { export * }
+}
