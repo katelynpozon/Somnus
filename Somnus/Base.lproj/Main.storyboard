@@ -18,71 +18,88 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Somnus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SignUpViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GradientView" customModule="Somnus" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="somnus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2L-ae-cUC">
-                                <rect key="frame" x="111" y="137" width="152" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="somnus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2L-ae-cUC">
+                                <rect key="frame" x="128.5" y="152.5" width="118" height="32.5"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="29"/>
                                 <color key="textColor" red="0.19215686269999999" green="0.1764705882" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SomnusLogo" translatesAutoresizingMaskIntoConstraints="NO" id="aSZ-2Z-LIG">
-                                <rect key="frame" x="135" y="45" width="105" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="SomnusLogo" translatesAutoresizingMaskIntoConstraints="NO" id="aSZ-2Z-LIG">
+                                <rect key="frame" x="135" y="60" width="105" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="Z7B-U7-0dv"/>
+                                    <constraint firstAttribute="height" constant="105" id="xug-r9-DXp"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How tired are you? Let's find out." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agT-8h-0cp">
-                                <rect key="frame" x="59" y="178" width="261" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="16"/>
-                                <color key="textColor" red="0.19215686269999999" green="0.1764705882" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ode-j4-Av5">
-                                <rect key="frame" x="186" y="272" width="155" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.6470588235294118" green="0.57647058823529407" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="name"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Ve-NA-hmE">
-                                <rect key="frame" x="33" y="322" width="308" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.64705882349999999" green="0.57647058819999997" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="username"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3mg-nr-q5c">
-                                <rect key="frame" x="33" y="374" width="308" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.64705882349999999" green="0.57647058819999997" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="email"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mf1-6z-PFy">
-                                <rect key="frame" x="33" y="426" width="308" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.64705882349999999" green="0.57647058819999997" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="password"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="em2-wS-Fxa">
-                                <rect key="frame" x="33" y="272" width="154" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.6470588235294118" green="0.57647058823529407" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="name"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJi-ap-YXV" customClass="MyButton" customModule="Somnus" customModuleProvider="target">
-                                <rect key="frame" x="54" y="516" width="266" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PN3-Hj-G0b">
+                                <rect key="frame" x="95" y="574" width="185" height="40"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                                <state key="normal" title="Already a member? Login here.">
+                                    <color key="titleColor" red="0.19215686269999999" green="0.1764705882" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jan-l4-14Q">
+                                <rect key="frame" x="36" y="267" width="303" height="200"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="iGL-ra-h8U">
+                                        <rect key="frame" x="0.0" y="0.0" width="303" height="50"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="em2-wS-Fxa">
+                                                <rect key="frame" x="0.0" y="0.0" width="151.5" height="50"/>
+                                                <color key="textColor" red="0.6470588235294118" green="0.57647058823529407" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="name"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ode-j4-Av5">
+                                                <rect key="frame" x="151.5" y="0.0" width="151.5" height="50"/>
+                                                <color key="textColor" red="0.6470588235294118" green="0.57647058823529407" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="name"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Ve-NA-hmE">
+                                        <rect key="frame" x="0.0" y="50" width="303" height="50"/>
+                                        <color key="textColor" red="0.64705882349999999" green="0.57647058819999997" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="username"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3mg-nr-q5c">
+                                        <rect key="frame" x="0.0" y="100" width="303" height="50"/>
+                                        <color key="textColor" red="0.64705882349999999" green="0.57647058819999997" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="email"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mf1-6z-PFy">
+                                        <rect key="frame" x="0.0" y="150" width="303" height="50"/>
+                                        <color key="textColor" red="0.64705882349999999" green="0.57647058819999997" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="password"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="iGL-ra-h8U" firstAttribute="width" secondItem="jan-l4-14Q" secondAttribute="width" id="5fN-Rc-JyM"/>
+                                    <constraint firstItem="Mf1-6z-PFy" firstAttribute="width" secondItem="jan-l4-14Q" secondAttribute="width" id="7O4-Re-3ns"/>
+                                    <constraint firstItem="3mg-nr-q5c" firstAttribute="width" secondItem="jan-l4-14Q" secondAttribute="width" id="PPf-Oa-ivR"/>
+                                    <constraint firstAttribute="height" constant="200" id="y4q-ho-wRg"/>
+                                    <constraint firstItem="5Ve-NA-hmE" firstAttribute="width" secondItem="jan-l4-14Q" secondAttribute="width" id="yTU-Dg-yIC"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJi-ap-YXV" customClass="MyButton" customModule="Somnus" customModuleProvider="target">
+                                <rect key="frame" x="62" y="523" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.19215686269999999" green="0.1764705882" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uJi-ap-YXV" secondAttribute="height" multiplier="5:1" id="118-fh-KDp"/>
+                                    <constraint firstAttribute="width" constant="180" id="lSc-XE-P9t"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
                                 <color key="tintColor" red="0.8862745098" green="0.81960784310000001" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="CREATE NEW ACCOUNT"/>
@@ -98,17 +115,34 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ma8-iQ-1Ej"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PN3-Hj-G0b">
-                                <rect key="frame" x="95" y="576" width="185" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
-                                <state key="normal" title="Already a member? Login here.">
-                                    <color key="titleColor" red="0.19215686269999999" green="0.1764705882" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="How tired are you? Let's find out." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agT-8h-0cp">
+                                <rect key="frame" x="57" y="169" width="261" height="39"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="16"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.1764705882" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PN3-Hj-G0b" secondAttribute="bottom" constant="63" id="2fa-7K-u11"/>
+                            <constraint firstItem="jan-l4-14Q" firstAttribute="top" secondItem="agT-8h-0cp" secondAttribute="bottom" constant="63" id="2uc-9Q-Osb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jan-l4-14Q" secondAttribute="trailing" constant="36" id="EBE-Qz-wAn"/>
+                            <constraint firstItem="aSZ-2Z-LIG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EZx-m8-fbL"/>
+                            <constraint firstItem="PN3-Hj-G0b" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Gcb-yl-vtj"/>
+                            <constraint firstItem="t2L-ae-cUC" firstAttribute="top" secondItem="aSZ-2Z-LIG" secondAttribute="bottom" constant="-13" id="HFM-SF-COL"/>
+                            <constraint firstItem="agT-8h-0cp" firstAttribute="top" secondItem="t2L-ae-cUC" secondAttribute="bottom" constant="2" id="IFN-AV-Ogm"/>
+                            <constraint firstItem="t2L-ae-cUC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IjA-DV-DXs"/>
+                            <constraint firstItem="uJi-ap-YXV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="30" id="RM0-1r-0fS"/>
+                            <constraint firstItem="aSZ-2Z-LIG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="bMU-ME-vX7"/>
+                            <constraint firstItem="PN3-Hj-G0b" firstAttribute="top" secondItem="uJi-ap-YXV" secondAttribute="bottom" constant="8" id="eGH-Pd-ChO"/>
+                            <constraint firstItem="jan-l4-14Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="fld-k8-ekv"/>
+                            <constraint firstItem="agT-8h-0cp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="piK-F6-4by"/>
+                            <constraint firstItem="uJi-ap-YXV" firstAttribute="top" secondItem="jan-l4-14Q" secondAttribute="bottom" constant="200" id="zzH-hQ-c9s"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
@@ -119,6 +153,13 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="3mg-nr-q5c" id="XS4-a8-aNE"/>
+                        <outlet property="firstName" destination="em2-wS-Fxa" id="SBD-O9-jqU"/>
+                        <outlet property="lastName" destination="Ode-j4-Av5" id="brF-dV-MlG"/>
+                        <outlet property="password" destination="Mf1-6z-PFy" id="Y3d-Mw-8n4"/>
+                        <outlet property="username" destination="5Ve-NA-hmE" id="61Q-bT-xCL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -255,10 +296,10 @@
             </objects>
             <point key="canvasLocation" x="974" y="-252"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="h8N-OD-DkF">
             <objects>
-                <viewController id="8kD-yW-VZr" sceneMemberID="viewController">
+                <viewController id="8kD-yW-VZr" customClass="LoginViewController" customModule="Somnus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KqQ-KW-M3a" customClass="GradientView" customModule="Somnus" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -307,6 +348,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="8kD-yW-VZr" eventType="touchUpInside" id="wPZ-ax-2SV"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jkm-0n-mck">
                                 <rect key="frame" x="33" y="307" width="308" height="52"/>
@@ -327,6 +371,10 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
+                    <connections>
+                        <outlet property="password" destination="V2u-86-rDt" id="NIj-AZ-pD3"/>
+                        <outlet property="username" destination="Jkm-0n-mck" id="C0f-Hx-tgO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bk5-fH-Q2D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

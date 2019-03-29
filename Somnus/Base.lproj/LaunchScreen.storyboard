@@ -23,11 +23,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SomnusLogo" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zio-OY-igu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SomnusLogo" translatesAutoresizingMaskIntoConstraints="NO" id="zio-OY-igu">
                                 <rect key="frame" x="100" y="159" width="175" height="175"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
                                 </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zio-OY-igu" secondAttribute="height" multiplier="1:1" id="PnP-jn-Aan"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="somnus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDP-r6-ULf">
                                 <rect key="frame" x="87" y="342" width="200" height="48"/>
@@ -41,9 +44,8 @@
                             <constraint firstItem="CDP-r6-ULf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="7z6-rA-BK3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CDP-r6-ULf" secondAttribute="bottom" constant="230" id="N4X-3H-ldk"/>
                             <constraint firstItem="zio-OY-igu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="139" id="OgV-Z3-KTv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zio-OY-igu" secondAttribute="trailing" constant="100" id="jaB-t7-Zia"/>
-                            <constraint firstItem="zio-OY-igu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="q3R-xd-pVK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CDP-r6-ULf" secondAttribute="trailing" constant="88" id="rOu-K5-T9v"/>
+                            <constraint firstItem="zio-OY-igu" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ttS-EA-OLH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zio-OY-igu" secondAttribute="bottom" constant="333" id="yQN-CZ-Ek4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
