@@ -32,13 +32,6 @@
                                 <color key="textColor" red="0.19215686269999999" green="0.1764705882" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="SomnusLogo" translatesAutoresizingMaskIntoConstraints="NO" id="aSZ-2Z-LIG">
-                                <rect key="frame" x="135" y="60" width="105" height="101"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="105" id="Z7B-U7-0dv"/>
-                                    <constraint firstAttribute="height" constant="105" id="xug-r9-DXp"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PN3-Hj-G0b">
                                 <rect key="frame" x="95" y="574" width="185" height="40"/>
                                 <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
@@ -120,11 +113,18 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="How tired are you? Let's find out." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agT-8h-0cp">
-                                <rect key="frame" x="57" y="169" width="261" height="39"/>
+                                <rect key="frame" x="57" y="176" width="261" height="39"/>
                                 <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="16"/>
                                 <color key="textColor" red="0.19215686269999999" green="0.1764705882" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="SomnusLogo" translatesAutoresizingMaskIntoConstraints="NO" id="aSZ-2Z-LIG">
+                                <rect key="frame" x="135" y="54" width="105" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="Z7B-U7-0dv"/>
+                                    <constraint firstAttribute="height" constant="105" id="xug-r9-DXp"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
